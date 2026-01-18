@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <meta name="description" content="Anubis Poker - Deposit-based Texas Hold'em on Sepolia Testnet" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐺</text></svg>">
+    <title>Anubis Poker | Sepolia Testnet</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #0a0a0f;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      .loader {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        color: #d4af37;
+      }
+      .loader-icon {
+        font-size: 4rem;
+        animation: pulse 2s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.6; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.1); }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run Anubis Poker.</noscript>
+    <div id="root">
+      <div class="loader">
+        <div class="loader-icon">🐺</div>
+        <p>Loading Anubis Poker...</p>
+      </div>
+    </div>
+  </body>
+</html>
